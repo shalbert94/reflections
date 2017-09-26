@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+It adds git metadata so that the repository can be tracked with git.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Documents are added from the working directory to the staging area, and
+when a commit is made, everything in the staging area is added to the
+repository. This offers simple control over what is committed.
