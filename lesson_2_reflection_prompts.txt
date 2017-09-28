@@ -6,3 +6,27 @@ What value do you think it offers?
 Documents are added from the working directory to the staging area, and
 when a commit is made, everything in the staging area is added to the
 repository. This offers simple control over what is committed.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+Working documents stage allows you to work on any document, but when it comes
+time to commit the staging area allows you to logically group changes and commit
+them.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+Let you test document changes without effecting the master HEAD.
+
+How do the diagrams help you visualize the branch structure?
+They help with tracking commit-branch relationships.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+Their additions and subtractions from the commit that they branched from fuse
+into one repository commit. The diagram helps with visualizing how the branches
+diverged and merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Pro-- Simplifies merging
+Con-- Creates opportunity for mistakes
